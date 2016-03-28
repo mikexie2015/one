@@ -140,7 +140,7 @@
 (function(){
 	var ThinkPHP = window.Think = {
 		"ROOT"   : "/one", //当前网站地址
-		"APP"    : "/one/index.php?s=", //当前项目地址
+		"APP"    : "/one", //当前项目地址
 		"PUBLIC" : "/one/Public", //项目公共目录地址
 		"DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO分割符
 		"MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],
@@ -154,7 +154,8 @@
 <div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->
 	
 </div>
-
+</body>
+</html>
 	<!-- /底部 -->
 </body>
 </html>

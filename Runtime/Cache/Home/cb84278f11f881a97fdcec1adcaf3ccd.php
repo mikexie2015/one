@@ -72,49 +72,48 @@
 	
 	<!-- 主体 -->
 	
-    <header class="jumbotron subhead" id="overview">
-        <div class="container">
-            <h2>源自相同起点，演绎不同精彩！</h2>
-            <p class="lead"></p>
-        </div>
-    </header>
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h2>修改密码</h2>
+    <p><span><span class="pull-left"></span> </span></p>
+  </div>
+</header>
 
 <div id="main-container" class="container">
     <div class="row">
         
-        <!-- 左侧 nav
-        ================================================== -->
-            <div class="span3 bs-docs-sidebar">
-                
-                <ul class="nav nav-list bs-docs-sidenav">
-                    <?php echo W('Category/lists', array($category['id'], ACTION_NAME == 'index'));?>
-                </ul>
-            </div>
         
-        
-    <div class="span9">
-        <!-- Contents
-        ================================================== -->
-        <section id="contents">
-            <?php $__CATE__ = D('Category')->getChildrenId($category['id']);$__LIST__ = D('Document')->page(!empty($_GET["p"])?$_GET["p"]:1,10)->lists($__CATE__, '`level` DESC,`id` DESC', 1,true); if(is_array($__LIST__)): $i = 0; $__LIST__ = $__LIST__;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><div class="">
-                    <h3><a href="<?php echo U('Article/detail?id='.$list['id']);?>"><?php echo ($list["title"]); ?></a></h3>
-                </div>
-                <div>
-                    <p class="lead"><?php echo ($list["description"]); ?></p>
-                </div>
-                <div>
-                    <span><a href="<?php echo U('Article/detail?id='.$list['id']);?>">查看全文</a></span>
-                    <span class="pull-right">
-                        <span class="author"><?php echo (get_username($list["uid"])); ?></span>
-                        <span>于 <?php echo (date('Y-m-d H:i',$list["create_time"])); ?></span> 发表在 <span>
-                        <a href="<?php echo U('Article/lists?category='.get_category_name($list['category_id']));?>"><?php echo (get_category_title($list["category_id"])); ?></a></span> 
-                        <span>阅读( <?php echo ($list["view"]); ?> )</span>&nbsp;&nbsp;
-                    </span>
-                </div>
-                <hr/><?php endforeach; endif; else: echo "" ;endif; ?>
 
-        </section>
-    </div>
+<section>
+	<div class="span12">
+        <form class="login-form" action="/one/Home/User/profile.html" method="post">
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">原密码</label>
+            <div class="controls">
+              <input type="password" id="inputPassword"  class="span3" placeholder="请输入密码"  errormsg="密码为6-20位" nullmsg="请填写密码" datatype="*6-20" name="old">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">新密码</label>
+            <div class="controls">
+              <input type="password" id="inputPassword"  class="span3" placeholder="请输入密码"  errormsg="密码为6-20位" nullmsg="请填写密码" datatype="*6-20" name="password">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">确认密码</label>
+            <div class="controls">
+              <input type="password" id="inputPassword" class="span3" placeholder="请再次输入密码" recheck="password" errormsg="您两次输入的密码不一致" nullmsg="请填确认密码" datatype="*" name="repassword">
+            </div>
+            <div class="controls Validform_checktip text-warning"></div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <button type="submit" class="btn">提 交</button>
+            </div>
+          </div>
+        </form>
+	</div>
+</section>
 
     </div>
 </div>
@@ -142,7 +141,7 @@
 (function(){
 	var ThinkPHP = window.Think = {
 		"ROOT"   : "/one", //当前网站地址
-		"APP"    : "/one/index.php?s=", //当前项目地址
+		"APP"    : "/one", //当前项目地址
 		"PUBLIC" : "/one/Public", //项目公共目录地址
 		"DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO分割符
 		"MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],
@@ -150,6 +149,31 @@
 	}
 })();
 </script>
+
+	<script type="text/javascript">
+
+    	$(document)
+	    	.ajaxStart(function(){
+	    		$("button:submit").addClass("log-in").attr("disabled", true);
+	    	})
+	    	.ajaxStop(function(){
+	    		$("button:submit").removeClass("log-in").attr("disabled", false);
+	    	});
+
+    	$("form").submit(function(){
+    		var self = $(this);
+    		$.post(self.attr("action"), self.serialize(), success, "json");
+    		return false;
+
+    		function success(data){
+    			if(data.status){
+    				window.location.href = data.url;
+    			} else {
+    				self.find(".Validform_checktip").text(data.info);
+    			}
+    		}
+    	});
+	</script>
  <!-- 用于加载js代码 -->
 <!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
 <?php echo hook('pageFooter', 'widget');?>

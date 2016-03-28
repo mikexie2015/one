@@ -49,3 +49,5 @@ class IndexController extends Controller{
         $this->display();
     }
 }
+</body>
+</html>
