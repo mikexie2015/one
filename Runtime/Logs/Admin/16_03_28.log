@@ -1963,3 +1963,506 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003118s ]
 
+[ 2016-03-28T17:05:19+08:00 ] ::1 /one/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005715s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:05:22+08:00 ] ::1 /one/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:05:34+08:00 ] ::1 /one/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000411s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005445s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:08:26+08:00 ] ::1 /one/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:09:44+08:00 ] ::1 /one/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000946s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004880s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:09:45+08:00 ] ::1 /one/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006811s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:09:45+08:00 ] ::1 /one/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003693s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:10:02+08:00 ] ::1 /one/admin/php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000339s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+ERR: 无法加载控制器:Php
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:11:16+08:00 ] ::1 /one/admin/php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+ERR: 无法加载控制器:Php
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:11:17+08:00 ] ::1 /one/admin/php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+ERR: 无法加载控制器:Php
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:11:17+08:00 ] ::1 /one/admin/php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000289s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004705s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+ERR: 无法加载控制器:Php
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:11:54+08:00 ] ::1 /one/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004679s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+ERR: 模板不存在:./Admin/View/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:11:57+08:00 ] ::1 /one/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+ERR: 模板不存在:./Admin/View/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:13:11+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007785s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004982s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:15:05+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0327s ]
+SQL: SELECT `id`,`title`,`url` FROM `menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0011s ]
+SQL: SELECT `pid` FROM `menu` WHERE ( pid !=0 AND url like '%Admin/Index%' ) LIMIT 1   [ RunTime:0.0017s ]
+ERR: 非法操作:Index
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:15:06+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+ERR: 非法操作:Index
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:15:10+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:15:42+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:15:59+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005365s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:16+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:30+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000261s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:53+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005412s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:54+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005292s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:54+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003807s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:54+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005315s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:54+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:55+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008594s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:55+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004508s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:55+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006649s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:55+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:56+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000355s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005586s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:16:56+08:00 ] ::1 /one/index.php?s=/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000327s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:18:54+08:00 ] ::1 /one/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:19:36+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:20:38+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:20:42+08:00 ] ::1 /one/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003893s ]
+ERR: 模板不存在:./View/Admin/Index/index.html
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\one\Core\Library\Think\Think.class.php 第 346 行.
+
+[ 2016-03-28T17:27:43+08:00 ] ::1 /one/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000763s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002025s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0052s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `model` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.159652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.131097s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.476882s ]
+SQL: select version() as v; [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037351s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.286599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.323667s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.324818s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.514156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013995s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.337758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.350664s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.025921s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.484207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019930s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.337758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.356903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010273s ]
+
