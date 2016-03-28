@@ -1750,3 +1750,216 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
 INFO: [ app_end ] --END-- [ RunTime:0.004299s ]
 
+[ 2016-03-28T16:53:40+08:00 ] ::1 /one/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005777s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000743s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0061s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `model` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001074s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.158890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002562s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.126529s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.380171s ]
+SQL: select version() as v; [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040961s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.190361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.230385s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.231133s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000940s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.419777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012995s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.245374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.257351s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.026333s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.387829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.245374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.263289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007180s ]
+
+[ 2016-03-28T16:53:43+08:00 ] ::1 /one/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005443s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `status` >= 0 AND `nickname` LIKE '%%' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `member` WHERE `status` >= 0 AND `nickname` LIKE '%%' ORDER BY `uid` desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000802s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001996s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004907s ]
+
+[ 2016-03-28T16:53:45+08:00 ] ::1 /one/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006804s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `config` WHERE `status` = 1 AND `group` = 1 ORDER BY `sort`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005394s ]
+
+[ 2016-03-28T16:53:46+08:00 ] ::1 /one/Admin/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007944s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0203s ]
+SQL: SELECT `title`,`name` FROM `addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist` FROM `addons` WHERE `name` IN ('AdaptiveImages','Attachment','DevTeam','Digg','Editor','EditorForAdmin','Iswaf','QiuBai','ReturnTop','SiteStat','SocialComment','SystemInfo')  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0060s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SocialComment' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'Attachment' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002889s ]
+
+[ 2016-03-28T16:53:48+08:00 ] ::1 /one/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000746s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0066s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `model` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000732s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.157748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002475s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.133309s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.361875s ]
+SQL: select version() as v; [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037808s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.170780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.208589s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.209336s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000645s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.398768s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014152s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.223101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.236286s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.027129s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.374760s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023953s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.223101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.245896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003118s ]
+

@@ -155,7 +155,7 @@
     (function(){
         var ThinkPHP = window.Think = {
             "ROOT"   : "/one", //当前网站地址
-            "APP"    : "/one/index.php?s=", //当前项目地址
+            "APP"    : "/one", //当前项目地址
             "PUBLIC" : "/one/Public", //项目公共目录地址
             "DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO分割符
             "MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],
