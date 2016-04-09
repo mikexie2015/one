@@ -13,10 +13,7 @@
 						<td><?php echo (ONETHINK_VERSION); ?>&nbsp;&nbsp;&nbsp;
 							<?php if(!empty($addons_config["new_version"])): ?><a href="http://www.onethink.cn" target="_blank">
 									发现新版本[<?php echo ($addons_config["new_version"]); ?>]
-								</a>&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="<?php echo U('/update/index');?>" target="_blank">
-                                    在线更新
-                                </a><?php endif; ?>
+								</a><?php endif; ?>
 						</td>
 					</tr>
 					<tr>
